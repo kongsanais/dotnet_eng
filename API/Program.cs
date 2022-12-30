@@ -19,4 +19,4 @@ var app = builder.Build();
 // Configure http pipline
 app.UseCors(builder => builder.AllowAnyHeader().AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
 app.MapControllers();
-app.Run();
+ app.Run();
